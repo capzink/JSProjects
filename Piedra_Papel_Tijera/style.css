@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(98, 107, 107, 0.623);
+    height: 100vh;
+}
+
+.scores{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:40px;
+}
+.score{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 24px;
+}
+.gameon{
+    margin-top:2rem;
+    text-align:center;
+    
+}
+h2{
+    font-size:2rem;
+}
+.images{
+    text-align: center
+}
+.choices{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 30% 0; 
+    
+}
+.pick{
+    display: flex;
+    width:120px;
+    height:40px;
+    border:solid rgba(95, 95, 175, 0.911);;
+    align-items:center;
+    justify-content: center;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(95, 95, 175, 0.452);
+    color: white; 
+    margin:10px;
+    padding: 5px;;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    justify-content: space-around;
+    text-align: center;
+    width:100%;
+    height: 100px;
+    transition: opacity 0.5s ease;
+    
+}
+.play{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width:100px;
+    border:solid rgba(95, 95, 175, 0.911);;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgba(95, 95, 175, 0.452);
+    color: white; 
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+.play:hover{
+    transform: scale(1.1);
+}
+
+.pick:hover{
+    transform: scale(1.1);
+}
+footer{
+    position: absolute;
+    text-align: center;
+    margin:auto;
+    width:80%;
+    bottom: 2px;
+    margin:0 10%
+}
+.footer-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    padding:10px;
+    color: rgba(95, 95, 175, 0.993);
+}
+div.fadeOut{
+    opacity:0;
+    pointer-events: none;
+}
+div.fadeIn{
+    opacity:1;
+    pointer-events: all;
+}
+.match{
+    transition: opacity 0.5s ease-in 0.5s;
+}
