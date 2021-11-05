@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+    font-size: 8px;
+    background: url('/muscibackground.jpg') center;
+    background-size: cover;
+  }
+    
+  .buttonkey {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .key {
+    border: 6px solid black;
+    border-radius: 6px;
+    margin: 8px;
+    font-size: 10px;
+    padding: 8px 8px;
+    transition: all .07s ease;
+    width: 60px;
+    text-align: center;
+    color: white;
+    background: rgba(0,0,0,0.4);
+    
+  }
+  
+  .playing {
+    transform: scale(1.2);
+    border-color: #ffc800da;
+    
+  }
+  
+  kbd {
+    display: block;
+    font-size: 4rem;
+  }
+  
+  p {
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffc800da;
+  }
