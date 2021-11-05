@@ -4,7 +4,7 @@ Project Specifications
 
 Create form UI
 Show error messages under specific inputs<br>
-checkRequired() to accept array of inputs
+checkRequired() to accept array of inputs<br>
 checkLength() to check min and max length
 checkEmail() to validate email with regex
 checkPasswordsMatch() to match confirm password
