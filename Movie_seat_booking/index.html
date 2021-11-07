@@ -5,8 +5,99 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movies Booking App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <main>
+        <div class="containerproject">
+            <div class="movie-selector" id="movie-select">
+                <label for="movie">Pick a movie:</label>
+                <select id="movie" name="movie">
+                    <option value="10">Avengers EndGame ($10)</option>
+                    <option value="12">Joker ($12)</option>
+                    <option value="8">Toy Story($8)</option>
+                    <option value="9">Lion King ($9)</option>
+                </select>
+            </div>
+            <div class="sitting">
+                <ul id="showcase">
+                    <li class="seat"></li><small>N/A</small>
+                    <li class="seat selected"></li><small>Selected</small>
+                    <li class="seat occupied"></li><small>Occupied</small>
+                </ul>
+            </div>
+            <div class="containermovies">
+                <div class="screen"></div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+                <div class="row">
+                    <div class="seat"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat occupied"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                    <div class="seat"></div>
+                </div>
+            </div>
+            <div id="notification">
+                <p>You have selected <span id="count">0</span> seats for a price of $<span id="money"> 0
+
+                </span></p>
+            </div>
+        </div>
+    </main>
     
+
+    <script src="script.js"></script>
 </body>
 </html>
