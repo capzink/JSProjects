@@ -1,0 +1,65 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    color:white
+}
+
+.videoclass{
+    background-color: black;
+    width:70%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+
+}
+
+.controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.637);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:70%;
+    color: white;
+
+}
+button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.bi-play-fill{
+    color: green;
+}
+.bi-stop-fill{
+    color: red;
+}
+.bi-pause-fill{
+    color: white;
+}
+
+span{
+    margin-left:10px;
+}
+
+@media(max-width:800px){
+    .videoclass, .controls{
+        width:90%
+    }
+}
+
