@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <script src="script.js" defer></script>
+            <link rel="stylesheet" href="style.css">
+            <title>CSS Variables</title>
+        </head>
+        <body>
+            <h1>Image filter</h1>
+            <div class="controls">
+                <label for="spacing">Spacing</label>
+               <input type="range" id="spacing" name="spacing" min="0" max="200" value="10" data-nemonic="px">
+               <label for="blur">Blur</label>
+               <input type="range" id="blur" name="blur" min="0" max="10" value="0" data-nemonic="px">
+               <label for="color">Color</label>
+               <input type="color" id="color" name="color">
+            </div>
+            <div class="image-box">
+            <img src="./images/dubai.jpg" alt="Dubai">
+            </div>
+        
+        </body>
+    </html>
